@@ -1,0 +1,16 @@
+{
+    "name": ".NET 8 playground",
+    "dockerComposeFile": ["../net8/docker-compose.yaml"],
+    "service": "dev-env",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csharp",
+                "ms-dotnettools.vscode-dotnet-runtime",
+                "ms-dotnettools.csdevkit"
+                ]
+          }
+    },
+    "remoteUser": "root"
+}
